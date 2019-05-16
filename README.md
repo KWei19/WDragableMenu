@@ -4,6 +4,9 @@ WDragableMenu is able reorder the position of item by drag and drop action.  WDr
 
 ## Preview
 
+<img src="ihttps://github.com/KWei19/WDragableMenu/blob/master/demo.gif" width="222" height="480"/>
+
+
 ## Installation
 Clone the repo, and run *pod install* at *Example* directory.
 
