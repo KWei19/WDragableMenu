@@ -20,8 +20,8 @@
     if (!_menuVC)
     {
         _menuVC = [[WDragableMenu alloc] init];
-        [_menuVC setTypeMenu:OnlyReorder];
-        [_menuVC setIsCellAnimationEnabled:NO];
+        [_menuVC setTypeMenu:ReoderAndEditable];
+        [_menuVC setIsCellAnimationEnabled:YES];
         [_menuVC setDragableMenuDelegate:self];
     }
     return _menuVC;
