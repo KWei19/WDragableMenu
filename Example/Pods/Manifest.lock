@@ -1,0 +1,16 @@
+PODS:
+  - WDragableMenu (1.0.0)
+
+DEPENDENCIES:
+  - WDragableMenu (from `../WDragableMenu.podspec`)
+
+EXTERNAL SOURCES:
+  WDragableMenu:
+    :path: "../WDragableMenu.podspec"
+
+SPEC CHECKSUMS:
+  WDragableMenu: 45dd7b32dbdc0625df3783c400d68dc369f0e045
+
+PODFILE CHECKSUM: a8db9dee4bdaaa072a9e7e6c979d366304ceca71
+
+COCOAPODS: 1.5.3
