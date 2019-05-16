@@ -3,8 +3,7 @@
 WDragableMenu is able reorder the position of item by drag and drop action.  WDragableMenu also provide two sections for user, user able to add/remove item to/from first section. 
 
 ## Preview
-
-<img src="ihttps://github.com/KWei19/WDragableMenu/blob/master/demo.gif" width="222" height="480"/>
+![](demo.gif)
 
 
 ## Installation
