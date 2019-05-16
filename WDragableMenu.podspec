@@ -18,7 +18,7 @@ s.ios.deployment_target  = '9.0'
 s.osx.deployment_target  = '9.0'
 s.source = {:git => 'https://github.com/KWei19/WDragableMenu.git', :tag => s.version}
 s.source_files  = 'WDragableMenu/**/*.{h,m}'
-s.resources = 'WDragableMenu/**/*.{png}'
+s.resources = 'WDragableMenu/**/*.png'
 s.requires_arc           = true
 s.static_framework       = true
 

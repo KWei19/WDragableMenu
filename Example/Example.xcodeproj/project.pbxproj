@@ -171,11 +171,13 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-Example/Pods-Example-resources.sh",
 				"${PODS_ROOT}/../../WDragableMenu/add-button.png",
 				"${PODS_ROOT}/../../WDragableMenu/close-button.png",
+				"${PODS_ROOT}/../../WDragableMenu/done-button.png",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/add-button.png",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/close-button.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/done-button.png",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

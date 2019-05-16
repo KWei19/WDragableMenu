@@ -120,7 +120,7 @@ BOOL isNavHidden = NO;
 
 -(void)setNumItemsFreeze:(NSInteger)numItemsFreeze
 {
-    _numItemsFreeze = numItemsFreeze <= 0 ? DefaultNumItemFreeze : numItemsFreeze;
+    _numItemsFreeze = numItemsFreeze < 0 ? DefaultNumItemFreeze : numItemsFreeze;
 }
 
 -(void)setTypeMenu:(WDragableMenuType)typeMenu
@@ -150,9 +150,12 @@ BOOL isNavHidden = NO;
         [lblTitle.widthAnchor constraintEqualToConstant:100.0].active = YES;
         [lblTitle.heightAnchor constraintEqualToConstant:20.0].active = YES;
 
+        CGFloat buttonSize = 44.0;
+        CGFloat buttonEdgeInset = buttonSize * 0.2;
         UIButton* btnClose = [UIButton buttonWithType:UIButtonTypeCustom];
-        [btnClose setFrame:CGRectMake(0, 0, 15.0, 15.0)];
-        [btnClose setTitle:@"x" forState:UIControlStateNormal];
+        [btnClose setFrame:CGRectMake(0, 0, buttonSize, buttonSize)];
+        [btnClose setImage:[UIImage imageNamed:@"done-button.png"]  forState:UIControlStateNormal];
+        [btnClose setImageEdgeInsets:UIEdgeInsetsMake(buttonEdgeInset, buttonEdgeInset, buttonEdgeInset, buttonEdgeInset)];
         [btnClose setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
         [btnClose addTarget:self action:@selector(onTapCloseButton) forControlEvents:UIControlEventTouchDown];
         [_navBarView addSubview:btnClose];
@@ -160,8 +163,8 @@ BOOL isNavHidden = NO;
         btnClose.translatesAutoresizingMaskIntoConstraints = NO;
         [btnClose.centerYAnchor constraintEqualToAnchor:lblTitle.centerYAnchor].active = YES;
         [btnClose.trailingAnchor constraintEqualToAnchor:_navBarView.trailingAnchor constant:-8].active = YES;
-        [btnClose.widthAnchor constraintEqualToConstant:15.0].active = YES;
-        [btnClose.heightAnchor constraintEqualToConstant:15.0].active = YES;
+        [btnClose.widthAnchor constraintEqualToConstant:44.0].active = YES;
+        [btnClose.heightAnchor constraintEqualToConstant:44.0].active = YES;
     }
     return _navBarView;
 }

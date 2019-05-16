@@ -16,7 +16,7 @@
     "tag": "1.0.0"
   },
   "source_files": "WDragableMenu/**/*.{h,m}",
-  "resources": "WDragableMenu/**/*.{png}",
+  "resources": "WDragableMenu/**/*.png",
   "requires_arc": true,
   "static_framework": true
 }

@@ -10,9 +10,8 @@
 #endif
 #endif
 
-#import "CollectionReusableView.h"
+#import "CollectionHeaderView.h"
 #import "CollectionViewCell.h"
-#import "MenuProtocol.h"
 #import "WDragableMenu.h"
 
 FOUNDATION_EXPORT double WDragableMenuVersionNumber;

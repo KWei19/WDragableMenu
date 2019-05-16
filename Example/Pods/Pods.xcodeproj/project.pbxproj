@@ -3,24 +3,25 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01C6575872EAAEEFF332263FF3BAA97D /* close-button.png in Resources */ = {isa = PBXBuildFile; fileRef = B9A08BCF87C22EC56578992B43CB5097 /* close-button.png */; };
-		021538F884421B9563181F0472A46B03 /* WDragableMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 662BAFD319F8CFCFD62D445C3A331CD1 /* WDragableMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4BC2625E88484ED3D1C6A17C4153F8B0 /* WDragableMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA66A94AD3521AC0347DB55BA84307F /* WDragableMenu-dummy.m */; };
-		6BFE7D8F8DC076CEC30CDA8B41792F25 /* CollectionHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 04109B8732FF6C2A0A183E68CEE42A4F /* CollectionHeaderView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		221CA2959F9796E43109D234288476A5 /* CollectionHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = DE6BFAD0C85DD929E2C942F6EAA66148 /* CollectionHeaderView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5FAB4BB07B35CC2E47C35DE5CD27392E /* close-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 239DB7CF76060ED208554D8BD83499DC /* close-button.png */; };
+		6E9A079A951CDB6F7BE8BDDA02059CA6 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB9BF5740E68947B56D2BA30C6D9AF0 /* CollectionViewCell.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		7B94EF80E2EA3C4F24D175D5F6EE8074 /* WDragableMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = 00155836C2373916FCCC74A3C3154055 /* WDragableMenu.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7FFF6DA5AA0E77AADA2EB62340996016 /* CollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D84AD3799949094774A9068776CE8A8 /* CollectionViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8025DE0AA691100504D19FE825E61B25 /* done-button.png in Resources */ = {isa = PBXBuildFile; fileRef = CC8875DB7C040529FCAE9E31A9E5F8AF /* done-button.png */; };
+		84ECDFC3AD61434CAD24765BD90837D5 /* add-button.png in Resources */ = {isa = PBXBuildFile; fileRef = E07D4E429F31DFB7B8FEED3AAE212ECB /* add-button.png */; };
+		8E1F8A748AE6319C9F6673C3CA9C5C92 /* WDragableMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CA63BFE2819A8D8B21C2679D6B03740A /* WDragableMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		90D6B384981467136C3C25B2EDFB85CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		914FDDF27DFFA32124661F649FCEFC2B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		9C9DC75362A82FD021745455D07CABD6 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0DB49065080116D82ED71D34AE6487 /* CollectionViewCell.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		9DE15BE83A88C2A1390F55A47F7E52BB /* Pods-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD65E35A3233FBE6F2EFDEB3D43D114 /* Pods-Example-dummy.m */; };
-		A7C0E5020ACFA7711417B1A8897CB9D4 /* CollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = AC3DFCC3674F45BD5B053473EE49770B /* CollectionViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A972F8806F2AC050BDEB82FFC3931F39 /* CollectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 523C28C47CAEB55C9F45FB0AF052CC56 /* CollectionHeaderView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		B9D05BB682ABAFF5B09B1FA8DBDEE6A2 /* add-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C1302BB8AD379D13AC2ABE6549B0326 /* add-button.png */; };
+		A40F82EF62D4788FB94074484AFE382C /* CollectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = AB58A10D4655988F85B36992C1AC0AD4 /* CollectionHeaderView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		B8CAD0A37A2D496BD353B0B8B7137B6C /* WDragableMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7365EA02C00CB878083467424C4FC630 /* WDragableMenu-dummy.m */; };
 		E0A26905CFB44D9630C922D43BE0DB17 /* Pods-Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 15D3FE98E9F2D34863BD3F3597A0485A /* Pods-Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E4C0AA5408CA06A09C3AD51A6A7D0891 /* WDragableMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = 489DA105FC76273FB160B9892924A661 /* WDragableMenu.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E6710D17B9533B63A339DFCADFCCE3F8 /* WDragableMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F50E162B213CD4012074956560DAE9 /* WDragableMenu.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		E2896D728059E0E1C19A2855DD824EB3 /* WDragableMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 93CE17F4AB7F1A5687B509B41C39CE8A /* WDragableMenu.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,35 +35,36 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04109B8732FF6C2A0A183E68CEE42A4F /* CollectionHeaderView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CollectionHeaderView.h; path = WDragableMenu/CollectionHeaderView.h; sourceTree = "<group>"; };
+		00155836C2373916FCCC74A3C3154055 /* WDragableMenu.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WDragableMenu.h; path = WDragableMenu/WDragableMenu.h; sourceTree = "<group>"; };
 		044AA3E23F71470C9B5F50D44720EA0D /* Pods-Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-resources.sh"; sourceTree = "<group>"; };
-		05FEB3173C81FA412BBD8CF19EA13D3D /* Pods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0BB177F630F50BAEDD54B8F8DD712E85 /* WDragableMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WDragableMenu.modulemap; sourceTree = "<group>"; };
+		05FEB3173C81FA412BBD8CF19EA13D3D /* Pods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Example.framework; path = "Pods-Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		11434BC759D12F57876FBB74A4775E74 /* Pods-Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		15D3FE98E9F2D34863BD3F3597A0485A /* Pods-Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Example-umbrella.h"; sourceTree = "<group>"; };
+		19B4ABB3CC9FFC9E4EA0AB5D3E56D70E /* WDragableMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WDragableMenu.xcconfig; sourceTree = "<group>"; };
 		1AD65E35A3233FBE6F2EFDEB3D43D114 /* Pods-Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Example-dummy.m"; sourceTree = "<group>"; };
-		21F50E162B213CD4012074956560DAE9 /* WDragableMenu.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WDragableMenu.m; path = WDragableMenu/WDragableMenu.m; sourceTree = "<group>"; };
+		239DB7CF76060ED208554D8BD83499DC /* close-button.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "close-button.png"; path = "WDragableMenu/close-button.png"; sourceTree = "<group>"; };
 		25A37D4D536CC5988A439441117C41F4 /* Pods-Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Example.modulemap"; sourceTree = "<group>"; };
-		2B6E71EEF35F40A9AB5566F8721250C5 /* WDragableMenu.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = WDragableMenu.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3ADE9E5655579DB0F79DC9C80758673C /* Pods-Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3F3EFEBDE6702DEFDFFF9D5C6DBC3773 /* Pods-Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-frameworks.sh"; sourceTree = "<group>"; };
-		489DA105FC76273FB160B9892924A661 /* WDragableMenu.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WDragableMenu.h; path = WDragableMenu/WDragableMenu.h; sourceTree = "<group>"; };
-		523C28C47CAEB55C9F45FB0AF052CC56 /* CollectionHeaderView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CollectionHeaderView.m; path = WDragableMenu/CollectionHeaderView.m; sourceTree = "<group>"; };
+		58621952665F9C671F8B8FF52B1F37FE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		5B097A1C5C2224F9F4DC05155AD183E8 /* WDragableMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WDragableMenu.xcconfig; sourceTree = "<group>"; };
-		5B0DB49065080116D82ED71D34AE6487 /* CollectionViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CollectionViewCell.m; path = WDragableMenu/CollectionViewCell.m; sourceTree = "<group>"; };
 		5B81C04F8E84EAE60AE15C8695031A5F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		662BAFD319F8CFCFD62D445C3A331CD1 /* WDragableMenu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WDragableMenu-umbrella.h"; sourceTree = "<group>"; };
-		7C1302BB8AD379D13AC2ABE6549B0326 /* add-button.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "add-button.png"; path = "WDragableMenu/add-button.png"; sourceTree = "<group>"; };
-		8CD4B425F25E759F8F54DF040417528B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		8F8CAC6590FD1563F15A1CB969EE0303 /* WDragableMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WDragableMenu-prefix.pch"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A28202817DF2BB46DD10EBED9D18B66F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		7365EA02C00CB878083467424C4FC630 /* WDragableMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WDragableMenu-dummy.m"; sourceTree = "<group>"; };
+		8D84AD3799949094774A9068776CE8A8 /* CollectionViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CollectionViewCell.h; path = WDragableMenu/CollectionViewCell.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93CE17F4AB7F1A5687B509B41C39CE8A /* WDragableMenu.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WDragableMenu.m; path = WDragableMenu/WDragableMenu.m; sourceTree = "<group>"; };
 		A79AC23D5A157FED70D9C53D844B2319 /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
-		AC3DFCC3674F45BD5B053473EE49770B /* CollectionViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CollectionViewCell.h; path = WDragableMenu/CollectionViewCell.h; sourceTree = "<group>"; };
-		B9A08BCF87C22EC56578992B43CB5097 /* close-button.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "close-button.png"; path = "WDragableMenu/close-button.png"; sourceTree = "<group>"; };
-		C57CA8015482EBCDED3AB2CFB25F18F3 /* WDragableMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WDragableMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DCA66A94AD3521AC0347DB55BA84307F /* WDragableMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WDragableMenu-dummy.m"; sourceTree = "<group>"; };
+		AB58A10D4655988F85B36992C1AC0AD4 /* CollectionHeaderView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CollectionHeaderView.m; path = WDragableMenu/CollectionHeaderView.m; sourceTree = "<group>"; };
+		AEB9BF5740E68947B56D2BA30C6D9AF0 /* CollectionViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CollectionViewCell.m; path = WDragableMenu/CollectionViewCell.m; sourceTree = "<group>"; };
+		B02A7D160B5FE3C1742A69DE962307DD /* WDragableMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WDragableMenu-prefix.pch"; sourceTree = "<group>"; };
+		BB5B848FF7FF988209C6E1539A091BB9 /* WDragableMenu.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = WDragableMenu.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BC0CBFE1B81EC40A684C2D648B1222B3 /* WDragableMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WDragableMenu.modulemap; sourceTree = "<group>"; };
+		C57CA8015482EBCDED3AB2CFB25F18F3 /* WDragableMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WDragableMenu.framework; path = WDragableMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA63BFE2819A8D8B21C2679D6B03740A /* WDragableMenu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WDragableMenu-umbrella.h"; sourceTree = "<group>"; };
+		CC8875DB7C040529FCAE9E31A9E5F8AF /* done-button.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "done-button.png"; path = "WDragableMenu/done-button.png"; sourceTree = "<group>"; };
+		D67EE674DE300DF3CB1224E4CEB4679B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		DE6BFAD0C85DD929E2C942F6EAA66148 /* CollectionHeaderView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CollectionHeaderView.h; path = WDragableMenu/CollectionHeaderView.h; sourceTree = "<group>"; };
+		E07D4E429F31DFB7B8FEED3AAE212ECB /* add-button.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "add-button.png"; path = "WDragableMenu/add-button.png"; sourceTree = "<group>"; };
 		EFC5B2E05B58CD826FD55659BF1D7E39 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -104,14 +106,31 @@
 			path = "Target Support Files/Pods-Example";
 			sourceTree = "<group>";
 		};
-		27EB1583C6917FE042CD978F4E0024CE /* Pod */ = {
+		3EB4DBA8CE1ADB79979E036BCC398594 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				8CD4B425F25E759F8F54DF040417528B /* LICENSE */,
-				A28202817DF2BB46DD10EBED9D18B66F /* README.md */,
-				2B6E71EEF35F40A9AB5566F8721250C5 /* WDragableMenu.podspec */,
+				D67EE674DE300DF3CB1224E4CEB4679B /* LICENSE */,
+				58621952665F9C671F8B8FF52B1F37FE /* README.md */,
+				BB5B848FF7FF988209C6E1539A091BB9 /* WDragableMenu.podspec */,
 			);
 			name = Pod;
+			sourceTree = "<group>";
+		};
+		445E6865AF3C49C07FC03B7CFF74E950 /* WDragableMenu */ = {
+			isa = PBXGroup;
+			children = (
+				DE6BFAD0C85DD929E2C942F6EAA66148 /* CollectionHeaderView.h */,
+				AB58A10D4655988F85B36992C1AC0AD4 /* CollectionHeaderView.m */,
+				8D84AD3799949094774A9068776CE8A8 /* CollectionViewCell.h */,
+				AEB9BF5740E68947B56D2BA30C6D9AF0 /* CollectionViewCell.m */,
+				00155836C2373916FCCC74A3C3154055 /* WDragableMenu.h */,
+				93CE17F4AB7F1A5687B509B41C39CE8A /* WDragableMenu.m */,
+				3EB4DBA8CE1ADB79979E036BCC398594 /* Pod */,
+				EF22160607E791F69AB7B52F068E6F26 /* Resources */,
+				A60A9C8C5C5015613E97C7A3887EB424 /* Support Files */,
+			);
+			name = WDragableMenu;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
@@ -134,17 +153,30 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				9E5C1562CA804215AD79CFEF6B1F126B /* Development Pods */,
+				A84B7118F23C2C31FD21A7FB17762C50 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				B7A895341E61F1682C8AC316F3B66AD3 /* Products */,
 				6A4F6A14E3FB951290E4531728B7A461 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		9E5C1562CA804215AD79CFEF6B1F126B /* Development Pods */ = {
+		A60A9C8C5C5015613E97C7A3887EB424 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				BB06322204B053A29DDEBECC1E23FF60 /* WDragableMenu */,
+				BC0CBFE1B81EC40A684C2D648B1222B3 /* WDragableMenu.modulemap */,
+				19B4ABB3CC9FFC9E4EA0AB5D3E56D70E /* WDragableMenu.xcconfig */,
+				7365EA02C00CB878083467424C4FC630 /* WDragableMenu-dummy.m */,
+				B02A7D160B5FE3C1742A69DE962307DD /* WDragableMenu-prefix.pch */,
+				CA63BFE2819A8D8B21C2679D6B03740A /* WDragableMenu-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WDragableMenu";
+			sourceTree = "<group>";
+		};
+		A84B7118F23C2C31FD21A7FB17762C50 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				445E6865AF3C49C07FC03B7CFF74E950 /* WDragableMenu */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -158,23 +190,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BB06322204B053A29DDEBECC1E23FF60 /* WDragableMenu */ = {
-			isa = PBXGroup;
-			children = (
-				04109B8732FF6C2A0A183E68CEE42A4F /* CollectionHeaderView.h */,
-				523C28C47CAEB55C9F45FB0AF052CC56 /* CollectionHeaderView.m */,
-				AC3DFCC3674F45BD5B053473EE49770B /* CollectionViewCell.h */,
-				5B0DB49065080116D82ED71D34AE6487 /* CollectionViewCell.m */,
-				489DA105FC76273FB160B9892924A661 /* WDragableMenu.h */,
-				21F50E162B213CD4012074956560DAE9 /* WDragableMenu.m */,
-				27EB1583C6917FE042CD978F4E0024CE /* Pod */,
-				E5BBCF85D8B6C3DDE7B4F6DB8329E99E /* Resources */,
-				FA3F795CAF69609FA921E5543C0BA394 /* Support Files */,
-			);
-			name = WDragableMenu;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -183,26 +198,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E5BBCF85D8B6C3DDE7B4F6DB8329E99E /* Resources */ = {
+		EF22160607E791F69AB7B52F068E6F26 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				7C1302BB8AD379D13AC2ABE6549B0326 /* add-button.png */,
-				B9A08BCF87C22EC56578992B43CB5097 /* close-button.png */,
+				E07D4E429F31DFB7B8FEED3AAE212ECB /* add-button.png */,
+				239DB7CF76060ED208554D8BD83499DC /* close-button.png */,
+				CC8875DB7C040529FCAE9E31A9E5F8AF /* done-button.png */,
 			);
 			name = Resources;
-			sourceTree = "<group>";
-		};
-		FA3F795CAF69609FA921E5543C0BA394 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				0BB177F630F50BAEDD54B8F8DD712E85 /* WDragableMenu.modulemap */,
-				5B097A1C5C2224F9F4DC05155AD183E8 /* WDragableMenu.xcconfig */,
-				DCA66A94AD3521AC0347DB55BA84307F /* WDragableMenu-dummy.m */,
-				8F8CAC6590FD1563F15A1CB969EE0303 /* WDragableMenu-prefix.pch */,
-				662BAFD319F8CFCFD62D445C3A331CD1 /* WDragableMenu-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/WDragableMenu";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -216,14 +219,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F5787F2643F8EABBD30AA62C35277AFE /* Headers */ = {
+		5591B9F029F92BA0B7CC4EBC47D24273 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6BFE7D8F8DC076CEC30CDA8B41792F25 /* CollectionHeaderView.h in Headers */,
-				A7C0E5020ACFA7711417B1A8897CB9D4 /* CollectionViewCell.h in Headers */,
-				021538F884421B9563181F0472A46B03 /* WDragableMenu-umbrella.h in Headers */,
-				E4C0AA5408CA06A09C3AD51A6A7D0891 /* WDragableMenu.h in Headers */,
+				221CA2959F9796E43109D234288476A5 /* CollectionHeaderView.h in Headers */,
+				7FFF6DA5AA0E77AADA2EB62340996016 /* CollectionViewCell.h in Headers */,
+				8E1F8A748AE6319C9F6673C3CA9C5C92 /* WDragableMenu-umbrella.h in Headers */,
+				7B94EF80E2EA3C4F24D175D5F6EE8074 /* WDragableMenu.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,10 +237,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D5054DD5FCD3BA4EA807C1ECF8E5E586 /* Build configuration list for PBXNativeTarget "WDragableMenu" */;
 			buildPhases = (
-				DE6570DCF522BDDC891638D600CC8E97 /* Sources */,
+				E09F8456A71A9A048A2A49282A990050 /* Sources */,
 				CDA5C2CC545550F6FF63FBE4D612CCC4 /* Frameworks */,
-				F5787F2643F8EABBD30AA62C35277AFE /* Headers */,
-				2B9BB9635AD313AB94E4696D6FACDD48 /* Resources */,
+				5591B9F029F92BA0B7CC4EBC47D24273 /* Headers */,
+				CDA33DFEDBCA120D8C012506CB079BF4 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -294,12 +297,13 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2B9BB9635AD313AB94E4696D6FACDD48 /* Resources */ = {
+		CDA33DFEDBCA120D8C012506CB079BF4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9D05BB682ABAFF5B09B1FA8DBDEE6A2 /* add-button.png in Resources */,
-				01C6575872EAAEEFF332263FF3BAA97D /* close-button.png in Resources */,
+				84ECDFC3AD61434CAD24765BD90837D5 /* add-button.png in Resources */,
+				5FAB4BB07B35CC2E47C35DE5CD27392E /* close-button.png in Resources */,
+				8025DE0AA691100504D19FE825E61B25 /* done-button.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,14 +318,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DE6570DCF522BDDC891638D600CC8E97 /* Sources */ = {
+		E09F8456A71A9A048A2A49282A990050 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A972F8806F2AC050BDEB82FFC3931F39 /* CollectionHeaderView.m in Sources */,
-				9C9DC75362A82FD021745455D07CABD6 /* CollectionViewCell.m in Sources */,
-				4BC2625E88484ED3D1C6A17C4153F8B0 /* WDragableMenu-dummy.m in Sources */,
-				E6710D17B9533B63A339DFCADFCCE3F8 /* WDragableMenu.m in Sources */,
+				A40F82EF62D4788FB94074484AFE382C /* CollectionHeaderView.m in Sources */,
+				6E9A079A951CDB6F7BE8BDDA02059CA6 /* CollectionViewCell.m in Sources */,
+				B8CAD0A37A2D496BD353B0B8B7137B6C /* WDragableMenu-dummy.m in Sources */,
+				E2896D728059E0E1C19A2855DD824EB3 /* WDragableMenu.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,7 +343,7 @@
 /* Begin XCBuildConfiguration section */
 		083BF332B3A6B1BE4B67D738F68B59A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B097A1C5C2224F9F4DC05155AD183E8 /* WDragableMenu.xcconfig */;
+			baseConfigurationReference = 19B4ABB3CC9FFC9E4EA0AB5D3E56D70E /* WDragableMenu.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -353,7 +357,11 @@
 				GCC_PREFIX_HEADER = "Target Support Files/WDragableMenu/WDragableMenu-prefix.pch";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/WDragableMenu/WDragableMenu.modulemap";
 				PRODUCT_MODULE_NAME = WDragableMenu;
@@ -447,7 +455,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-Example/Pods-Example.modulemap";
 				OTHER_LDFLAGS = "";
@@ -480,7 +492,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-Example/Pods-Example.modulemap";
 				OTHER_LDFLAGS = "";
@@ -499,7 +515,7 @@
 		};
 		CA4126D1D91D4B1D14D542C053E82571 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B097A1C5C2224F9F4DC05155AD183E8 /* WDragableMenu.xcconfig */;
+			baseConfigurationReference = 19B4ABB3CC9FFC9E4EA0AB5D3E56D70E /* WDragableMenu.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -513,7 +529,11 @@
 				GCC_PREFIX_HEADER = "Target Support Files/WDragableMenu/WDragableMenu-prefix.pch";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/WDragableMenu/WDragableMenu.modulemap";
 				PRODUCT_MODULE_NAME = WDragableMenu;

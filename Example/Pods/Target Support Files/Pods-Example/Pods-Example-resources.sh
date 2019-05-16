@@ -94,10 +94,12 @@ EOM
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_resource "${PODS_ROOT}/../../WDragableMenu/add-button.png"
   install_resource "${PODS_ROOT}/../../WDragableMenu/close-button.png"
+  install_resource "${PODS_ROOT}/../../WDragableMenu/done-button.png"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_resource "${PODS_ROOT}/../../WDragableMenu/add-button.png"
   install_resource "${PODS_ROOT}/../../WDragableMenu/close-button.png"
+  install_resource "${PODS_ROOT}/../../WDragableMenu/done-button.png"
 fi
 
 mkdir -p "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"

@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../WDragableMenu.podspec"
 
 SPEC CHECKSUMS:
-  WDragableMenu: 45dd7b32dbdc0625df3783c400d68dc369f0e045
+  WDragableMenu: 622f4e1cad7ac485912ed03a1f07ac6011f3e7ec
 
 PODFILE CHECKSUM: a8db9dee4bdaaa072a9e7e6c979d366304ceca71
 
