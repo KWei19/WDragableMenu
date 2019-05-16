@@ -472,6 +472,8 @@ BOOL isNavHidden = NO;
 #pragma mark - IBAction Function
 -(void)onTapCloseButton
 {
+    isEditModeEnabled = NO;
+    [self delegateUpdateUser];
     if (self.navigationController) { [self.navigationController popViewControllerAnimated:YES]; }
     else if (self.presentingViewController) { [self dismissViewControllerAnimated:YES completion:NULL]; }
 }
@@ -480,23 +482,7 @@ BOOL isNavHidden = NO;
 -(void)actionForEditButton:(id)sender
 {
     isEditModeEnabled = !isEditModeEnabled;
-    if (isEditModeEnabled)
-    {
-        [self.collectionView addGestureRecognizer: self.longPressGesture];
-    }
-    else
-    {
-        [self.collectionView removeGestureRecognizer:self.longPressGesture];
-        if (isUpdated)
-        {
-            isUpdated = false;
-            if (self.dragableMenuDelegate && [self.dragableMenuDelegate respondsToSelector:@selector(userUpdatedMenuSequence)])
-            {
-                [self.dragableMenuDelegate userUpdatedMenuSequence];
-            }
-        }
-    }
-    [self.collectionView reloadData];
+    [self delegateUpdateUser];
 }
 
 #pragma mark - Delegate from CollectionViewCell
@@ -541,6 +527,27 @@ BOOL isNavHidden = NO;
             [weakSelf.collectionView reloadItemsAtIndexPaths:@[newIndexPath]];
         }];
     }
+}
+
+-(void)delegateUpdateUser
+{
+    if (isEditModeEnabled)
+    {
+        [self.collectionView addGestureRecognizer: self.longPressGesture];
+    }
+    else
+    {
+        [self.collectionView removeGestureRecognizer:self.longPressGesture];
+        if (isUpdated)
+        {
+            isUpdated = false;
+            if (self.dragableMenuDelegate && [self.dragableMenuDelegate respondsToSelector:@selector(userUpdatedMenuSequence)])
+            {
+                [self.dragableMenuDelegate userUpdatedMenuSequence];
+            }
+        }
+    }
+    [self.collectionView reloadData];
 }
 
 @end
