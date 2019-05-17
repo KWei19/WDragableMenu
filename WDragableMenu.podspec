@@ -15,7 +15,6 @@ s.homepage               = 'https://github.com/KWei19/WDragableMenu.git'
 s.license                = 'MIT'
 s.author                 = { "KWei" => "wei_b_5@hotmail.com" }
 s.ios.deployment_target  = '9.0'
-s.osx.deployment_target  = '9.0'
 s.source = {:git => 'https://github.com/KWei19/WDragableMenu.git', :tag => s.version}
 s.source_files  = 'WDragableMenu/**/*.{h,m}'
 s.resources = 'WDragableMenu/**/*.png'

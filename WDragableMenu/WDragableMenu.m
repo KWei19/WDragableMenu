@@ -125,11 +125,6 @@ BOOL isNavHidden = NO;
     _numItemsFreeze = numItemsFreeze < 0 ? DefaultNumItemFreeze : numItemsFreeze;
 }
 
--(void)setTypeMenu:(WDragableMenuType)typeMenu
-{
-    _typeMenu = typeMenu == nil ? OnlyReorder : typeMenu;
-}
-
 #pragma mark - Lazy Methods
 - (UIView *)navBarView
 {

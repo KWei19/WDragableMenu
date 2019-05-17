@@ -76,7 +76,7 @@ NS_SWIFT_NAME(removeItemWith(selectedIndex:));
 
 @end
 
-@interface WDragableMenu : UIViewController <UICollectionViewDataSource, UICollectionViewDelegateFlowLayout, CollectionViewCellDelegate>
+@interface WDragableMenu : UIViewController <UICollectionViewDataSource, UICollectionViewDelegateFlowLayout, CollectionViewCellDelegate, CollectionHeaderViewDelegate>
 
 /** dragableMenuDelegate
  delegate function will be used when the ordering of items is changed
